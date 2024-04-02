@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Product
+metadata:
+  name: "Sample1"
+  confluencePageId: "1048613"
+  confluenceSpaceId: EAD
+  confluencePageTitle: "Backstage"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
+  projectInfo:
+    projectName: 
+    moduleName: "Sample"
+    informationAuthor: user:guest
+    modality: "UL"
+    bodyParts: "Head"
+    processingPurpose: "PP"
+    protocol: "HTTP"
+    algorithmType: "AI"
+    packageType: "JAR"
+    supportedOs: "WIN"
+    sourceCodeLanguage: 
+    developmentStatus: "Completed"
+    linkToProjectPage: "http://localhost:3000/create/templates/default/example-product-template"
